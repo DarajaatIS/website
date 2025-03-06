@@ -4684,7 +4684,7 @@ figure {
 
 .kiddy-club-logo {
   width: auto;
-  height: 60px;
+  height: 135px;
 }
 
 .nav-menu-shadow-overlay-3 {
@@ -5484,6 +5484,7 @@ figure {
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
+  color: var(--text-dark);
 }
 
 .blog-title-wrapper {
@@ -7279,9 +7280,10 @@ figure {
   letter-spacing: -.35vw;
   text-transform: uppercase;
   margin-bottom: -3.5vw;
-  font-size: 13.5vw;
+  font-size: 9vw;
   font-weight: 400;
   line-height: .89;
+  padding-bottom: 20px;
 }
 
 .row-title-text.text-align-center {
@@ -8451,7 +8453,7 @@ figure {
 }
 
 .nav-menu-item-purple {
-  color: var(--text-dark);
+  color: var(--primary-red);
   letter-spacing: .2em;
   text-transform: uppercase;
   font-size: 12px;
@@ -8465,6 +8467,18 @@ figure {
   font-size: 12px;
   display: flex;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .nav-menu-dropdown-purple {
+      display: block !important;
+  }
+  .dropdown-nav-list {
+      display: block !important;
+  }
+  .nav-menu-item-purple {
+      display: block !important;
+  }
 }
 
 .nav-menu-dropdown-purple {
@@ -8482,7 +8496,7 @@ figure {
 }
 
 .link-header-item-purple.w--open:hover {
-  color: #a8a4a4;
+  color: #f80000;
   text-decoration: none;
 }
 
@@ -8499,6 +8513,7 @@ figure {
 .hero-banner-2-description {
   margin-top: 0;
   margin-bottom: 0;
+  color: #ffffff
 }
 
 .button-banner-2 {
@@ -13790,8 +13805,8 @@ figure {
   align-items: center;
   width: 100%;
   height: auto;
-  padding-top: 180px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -13803,7 +13818,7 @@ figure {
   grid-row-gap: 20px;
   flex-direction: column;
   align-items: flex-start;
-  width: 55%;
+  width: 100%;
   margin-right: auto;
   padding-right: 40px;
   display: flex;
@@ -13819,7 +13834,7 @@ figure {
   margin-bottom: 20px;
 }
 
-.left-video-con {
+/* .left-video-con {
   z-index: 15;
   background-color: #0000;
   flex-direction: row;
@@ -13830,7 +13845,7 @@ figure {
   position: absolute;
   inset: 0% 0% 0% auto;
   overflow: visible;
-}
+} */
 
 .home-5-video {
   z-index: 1;
@@ -13861,10 +13876,10 @@ figure {
 .blue-circle {
   background-color: var(--blue);
   border-radius: 100%;
-  width: 700px;
-  height: 700px;
+  width: 2500px;
+  height: 2500px;
   position: absolute;
-  bottom: -300px;
+  bottom: -500px;
 }
 
 .color-banner-circle {
@@ -17720,7 +17735,7 @@ figure {
 
   .banner-5-hero-section {
     min-height: 100vh;
-    padding-top: 180px;
+    padding-top: 10px;
   }
 
   .home-5-video {
@@ -20830,10 +20845,10 @@ figure {
 
   .banner-5-hero-section {
     grid-column-gap: 60px;
-    grid-row-gap: 60px;
+    grid-row-gap: 30px;
     flex-direction: column;
     padding-top: 0;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
   }
 
   .banner-3-wrap {
